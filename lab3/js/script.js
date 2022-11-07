@@ -18,19 +18,19 @@ function createDeleteElements(value) {
     const li = document.createElement('li')
     const delet = document.createElement('button')
     const ready = document.createElement('button')
+    const div = document.createElement('div');
 
-    li.className = 'li'
-    li.textContent = value
+    li.className = 'li';
+    li.textContent = value;
+    delet.className = 'delet';
+    delet.innerHTML = '<img src="./img/delete.svg">';
 
-    delet.className = 'delet'
-    delet.innerHTML = '<img src="./img/delete.svg">'
+    li.appendChild(delet);
 
-    li.appendChild(delet)
+    ready.className = 'ready';
+    ready.innerHTML = '<img src="./img/check-mark.svg">';
 
-    ready.className = 'ready'
-    ready.innerHTML = '<img src="./img/check-mark.svg">'
-
-    li.appendChild(ready)
+    li.appendChild(ready);
 
     
   

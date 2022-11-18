@@ -14,7 +14,6 @@ async function getMovies(url) {
     },
   });
   const respData = await resp.json();
-  console.log(respData)
   showMovies(respData);
 }
 

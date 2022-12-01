@@ -1,0 +1,191 @@
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+}
+
+.header{
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-bottom: 2px solid  rgb(209, 209, 209);
+}
+.design{
+    margin-top: 5px;
+    border-radius: 5px;
+    background-color: goldenrod;
+}
+.design1{
+    padding: 10px;
+    margin: 0;
+    
+}
+.img-logo{
+    height: 50px;
+    width: 50px;
+    margin-right: 30px;
+    border-radius: 30px;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.catalog-head{
+    width: 100px;
+}
+h2{
+    color: white;
+}
+h3{
+    color: white;
+}
+.catalog{
+    width: 70%;
+    height: 570px;
+    padding-left: 40px;
+    padding-right: 40px;
+    
+}
+.basket{
+    width: 30%;
+    height: 570px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.flex-contant{
+    display: flex;
+    background-color: rgb(233, 233, 233);
+    background-color: black;
+}
+.products{
+    border: 2px solid rgb(255, 255, 255);
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 5px;
+}
+.product{
+    width: 200px;
+    height: 200px;
+    color: white;
+    margin: 20px;
+    border: 2px solid rgb(255, 250, 250);
+    border-radius: 5px;
+
+}
+.product:hover{
+    box-shadow: 0px 0px 30px rgb(219, 219, 219);
+}
+.product-img{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 50%;
+    width: auto;
+    display: flex;
+    align-items: center;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+.product-info{
+    height: 30%;
+    margin-left: 10px;
+    margin-right: 10px;
+    border: 1px solid white;
+    border-radius: 5px;
+
+}
+.name-product{
+    margin: 5px;
+    font-weight: bold;
+}
+.price-product{
+    padding-left: 5px;
+    margin: 0;
+    width: 80px;
+    font-weight: bold;
+    font-size: 25px;
+}
+.buy-delete{
+    display: flex;
+    justify-content: space-between;
+}
+.btn-delete{
+    height: 30px;
+    width: 30px;
+    margin-right: 10px;
+    cursor: pointer;
+
+}
+.delete-img{
+    height: 25px;
+    width: 25px;
+    margin-top: 3px;
+    margin-left: 2px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.basket-block{
+    height: 300px;
+    margin-top: 40px;
+    border-radius: 5px;
+    border: 2px solid rgb(255, 255, 255);
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.basket-products{
+    height: 180px;
+    border: 2px solid white;
+    border-radius: 5px;
+}
+.sum{
+   height: 30px;
+}
+.basket-product{
+    height: 70px;
+    border: 1px solid white;
+    margin: 10px;
+    display: flex; 
+    justify-content: space-between;
+    border-radius: 5px;
+}
+.basket-product:hover{
+    box-shadow: 0px 0px 30px rgb(219, 219, 219);
+}
+.basket-img{
+    height: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.basket-product-img{
+    width: 80px;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-right: 1px solid white;
+    display: flex;
+    align-items: center;
+}
+.basket-product-name{
+    color: white;
+    margin-bottom: 5px;
+    width: 100px;
+}
+.basket-product-price{
+    color: white;
+    margin-top: 5px;
+}
+.basket-product-delete{
+    height: 20px;
+    width: 20px;
+    margin-top: 25px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+.basket-product-info{
+    width: 200px;
+    display: flex;
+}
